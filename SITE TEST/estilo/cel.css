@@ -1,0 +1,97 @@
+@media(min-width:768px) and (max-width:900px){
+    .links{
+        display: none;
+        background-color: #536d88;
+        width:200px;
+        margin-top: 280px;
+        margin-right: 40px;
+        z-index: 9;
+        text-align: center;
+        align-items: center;
+    }
+    .cabeçalho i.fa-solid{
+        display:block;
+        font-size: 22px;
+    }
+    .cabeçalho i.fa-brands{
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    } 
+    .artigo{
+        height: 60vh;
+    }
+}
+@media(min-width:580px) and (max-width:768px){
+    .links{
+        display: none;
+        background-color: #536d88;
+        width:200px;
+        margin-top: 280px;
+        margin-right: 40px;
+        z-index: 9;
+        text-align: center;
+        align-items: center;
+
+    }
+    .cabeçalho i.fa-solid{
+        display:block;
+        font-size: 22px;
+    }
+    .cabeçalho i.fa-brands{
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    } 
+    .artigo{
+        height: 60vh;
+    }
+    .img{
+        padding-top: 80px;
+    }
+}
+@media(min-width:300px) and (max-width:580px){
+    .links{
+        display: none;
+        background-color: #536d88;
+        width:130px;
+        margin-top: 280px;
+        margin-right: 10px;
+        margin-left: 10px;
+        z-index: 9;
+        text-align: center;
+        align-items: center;
+    }
+    .link{
+        display: block;
+    }
+    .cabeçalho i.fa-solid{
+        display:block;
+        font-size: 22px;
+    }
+    .cabeçalho i.fa-brands{
+        display: none;
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .artigo{
+        display:inline-block;
+        height: 70vh;
+        margin: auto;
+    }
+    .artigo .descriçao{
+        display:block;
+        width: 100%;
+        text-align: justify;
+        margin-bottom:50px;
+        padding: 20px;
+        background-image: url(../img/img4.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .img{
+        display:none;
+    }
+    
+}

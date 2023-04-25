@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta type="description" content="Desenvolvimento de páginas Web para todos tipos de Negocios.">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/cel.css">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>teste responsivo</title>
+</head>
+<body onresize="mudoutamanho()">
+    <header class="cabeçalho">
+        <i onclick="clicMenu()" id="menu" class="fa-solid fa-bars"></i>
+        <h1>WEBCOD</h1>
+        <div id="link" class="links">
+            <a href="#">Incio</a>
+            <a href="#">Trabalhos</a>
+            <a href="#">Loja</a>
+            <a href="#">Contato</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </header>
+    <article class="artigo">
+        <div class="descriçao">
+            <h2>João Carlos Reis</h2>
+            <p>Desenvolvimento Web com os Desing mais atualizados do mercado!</p>
+        </div>
+        <div class="img">
+            <picture>
+                <source media="(max-width: )" srcset="img/img5.png">
+                <source media="(max-width:767px )" srcset="img/img3.png">
+                <source media="(max-width: 900px)" srcset="img/img4.png">
+            <img src="img/img2.png" alt="imagem inlustrativa de varais páginas web">
+        </picture>
+        </div>    
+    </article>
+    <main class="main">
+        <div class="quadros">
+            
+        </div>
+    </main>
+    
+
+    <script src="https://kit.fontawesome.com/1aad65ad05.js" crossorigin="anonymous"></script>
+    <script src="js/maquina.js"></script>
+</body>
+</html>
