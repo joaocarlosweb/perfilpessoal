@@ -67,8 +67,24 @@ i.fa-solid{
 .main{
     width: 100%;
     height: 100vh;
-    background-color: ;
+    background-color: lightgrey ;
 }
+.qds{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+}
+.quadros{
+    width: 30%;
+    height: 200px;
+    background-color: gray;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
 
 
 
