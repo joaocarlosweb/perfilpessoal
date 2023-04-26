@@ -70,13 +70,13 @@ i.fa-solid{
 }
 .qds{
     display:inline-block;
-   width: 100%;
+    width: 100%;
     padding: 50px;
 }
 .quadros{
-    display: inline-block;
+    display:block;
     width:100%;
-    background-color: gray;
+    background-color: #0f132e;
     padding: 20px;
     margin: auto;
     margin-bottom: 10px;
@@ -88,12 +88,13 @@ i.fa-solid{
 }
 .quadros h3{
     font-size: 28px;
-    color:black;
+    color:#eac195;
 
 }
 .quadros p{
     text-align: justify;
     font-size: 18px;
+    color: #eac195;
 }
 
 
