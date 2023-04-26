@@ -69,16 +69,17 @@ i.fa-solid{
     background-color: lightgrey ;
 }
 .qds{
-    display:inline-block;
+    display:flex;
     width: 100%;
     padding: 50px;
+    margin: auto;
 }
 .quadros{
     display:block;
     width:100%;
     background-color: #0f132e;
     padding: 20px;
-    margin: auto;
+    margin: 10px;
     margin-bottom: 10px;
     text-align: center;
     align-items: center;

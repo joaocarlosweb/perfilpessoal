@@ -50,6 +50,9 @@
     .img{
         padding-top: 80px;
     }
+    .main .qds{
+        display: block;
+    }
 }
 @media(min-width:300px) and (max-width:580px){
     .links{
@@ -95,5 +98,9 @@
     .img{
         display:none;
     }
+    .main .qds{
+        display: inline-block;
+    }
+
     
 }
