@@ -53,6 +53,9 @@
     .main .qds{
         display: block;
     }
+    
+    
+    
 }
 @media(min-width:300px) and (max-width:580px){
     .links{
@@ -100,6 +103,19 @@
     }
     .main .qds{
         display: inline-block;
+    }
+    .sesao1{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .div2{
+        margin: auto;
+        width: 250px;
+        height: 300px;
+    }
+    .div2{
+        margin-right:10px;
     }
 
     
